@@ -2,7 +2,7 @@ function Produto(){
 
 return(
 
-<div Produto> </div>
+<div> Produto </div>
 
 )
 }export default Produto

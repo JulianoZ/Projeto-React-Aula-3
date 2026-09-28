@@ -7,6 +7,9 @@ function Navbar() {
       <Link to="/" className="text-white hover:underline">Home</Link>
       <Link to="/sobre" className="text-white hover:underline">Sobre</Link>
       <Link to="/contato" className="text-white hover:underline">Contato</Link>
+      <Link to="/produto" className="text-white hover:underline">Produto</Link>
+      <Link to="/servico" className="text-white hover:underline">Serviços</Link>
+      
     </nav>
   )
 }
