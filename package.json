@@ -8,7 +8,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "release": "git push origin main --tags && gh release create (node -p \"'v' + require('./package.json').version\") --generate-notes"
+    "release": "git push origin main --tags && gh release create --generate-notes"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.13",
